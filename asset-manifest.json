@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/odin-memory-game/static/css/main.352f6912.css",
+    "main.js": "/odin-memory-game/static/js/main.80c19d3c.js",
+    "static/media/sandy.png": "/odin-memory-game/static/media/sandy.710f62a9f6979adc3161.png",
+    "static/media/gary.png": "/odin-memory-game/static/media/gary.069b3ec272e8a124596c.png",
+    "static/media/krabs.png": "/odin-memory-game/static/media/krabs.5c1ec2051746353b3b54.png",
+    "static/media/pearl.png": "/odin-memory-game/static/media/pearl.57c3a3fea43c6857d51e.png",
+    "static/media/patrick.png": "/odin-memory-game/static/media/patrick.faee094e636840d30cd8.png",
+    "static/media/puff.png": "/odin-memory-game/static/media/puff.7452fc0f5216e76ce7e3.png",
+    "static/media/squidward.png": "/odin-memory-game/static/media/squidward.6ebd72d67421bb1e16f4.png",
+    "static/media/plankton.png": "/odin-memory-game/static/media/plankton.5f8c39ea0a40642709bb.png",
+    "static/media/patrickSponge.png": "/odin-memory-game/static/media/patrickSponge.b101df9ac959b86be27b.png",
+    "static/media/jellyfish.png": "/odin-memory-game/static/media/jellyfish.22df15a48fc9fc696d2f.png",
+    "index.html": "/odin-memory-game/index.html",
+    "main.352f6912.css.map": "/odin-memory-game/static/css/main.352f6912.css.map",
+    "main.80c19d3c.js.map": "/odin-memory-game/static/js/main.80c19d3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.352f6912.css",
+    "static/js/main.80c19d3c.js"
+  ]
+}
