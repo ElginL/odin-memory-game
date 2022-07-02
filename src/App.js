@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import PlayingBoard from "./components/PlayingBoard";
+import styles from './styles/App.module.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [score, setScore] = useState(0);
+    const [highestScore, setHighestScore] = useState(0);
+
+    if (score > highestScore) {
+        setHighestScore(score);
+    }
+
+    return (
+        <div>
+            <nav className={styles["nav-bar"]}>
+                <h2 className={styles["web-title"]}>Memory Game</h2>
+                <div className={styles["scoreboard"]}>
+                    <p className={styles["text"]}>
+                        Current Score: {score}
+                    </p>
+                    <p className={styles["text"]}>
+                        Highest Score: {highestScore}
+                    </p>
+                </div>
+            </nav>
+            <PlayingBoard
+                setScore={setScore}
+            />
+        </div>
+    )
 }
 
 export default App;

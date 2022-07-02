@@ -1,0 +1,31 @@
+.btn-container {
+    padding: 10px 30px;
+}
+
+.btn-container:hover {
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
