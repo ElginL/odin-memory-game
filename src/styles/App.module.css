@@ -6,6 +6,19 @@
     padding: 20px;
 }
 
+.background {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: lightgrey;
+    z-index: -1
+}
+
+.screen {
+    background-color: lightgrey;
+    height: 100vh;
+}
+
 .scoreboard {
     display: flex;
     gap: 50px;
@@ -21,4 +34,11 @@
     color: white;
     margin: 0;
     font-size: 2rem;
+}
+
+
+@media (max-width: 680px) {
+    .scoreboard {
+       gap: 20px;
+    }
 }
