@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/odin-memory-game/static/css/main.352f6912.css",
-    "main.js": "/odin-memory-game/static/js/main.80c19d3c.js",
+    "main.css": "/odin-memory-game/static/css/main.0edd44e0.css",
+    "main.js": "/odin-memory-game/static/js/main.50936348.js",
     "static/media/sandy.png": "/odin-memory-game/static/media/sandy.710f62a9f6979adc3161.png",
     "static/media/gary.png": "/odin-memory-game/static/media/gary.069b3ec272e8a124596c.png",
     "static/media/krabs.png": "/odin-memory-game/static/media/krabs.5c1ec2051746353b3b54.png",
@@ -13,11 +13,11 @@
     "static/media/patrickSponge.png": "/odin-memory-game/static/media/patrickSponge.b101df9ac959b86be27b.png",
     "static/media/jellyfish.png": "/odin-memory-game/static/media/jellyfish.22df15a48fc9fc696d2f.png",
     "index.html": "/odin-memory-game/index.html",
-    "main.352f6912.css.map": "/odin-memory-game/static/css/main.352f6912.css.map",
-    "main.80c19d3c.js.map": "/odin-memory-game/static/js/main.80c19d3c.js.map"
+    "main.0edd44e0.css.map": "/odin-memory-game/static/css/main.0edd44e0.css.map",
+    "main.50936348.js.map": "/odin-memory-game/static/js/main.50936348.js.map"
   },
   "entrypoints": [
-    "static/css/main.352f6912.css",
-    "static/js/main.80c19d3c.js"
+    "static/css/main.0edd44e0.css",
+    "static/js/main.50936348.js"
   ]
 }
