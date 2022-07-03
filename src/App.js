@@ -12,6 +12,7 @@ function App() {
 
     return (
         <div>
+            <div className={styles["background"]}></div>
             <nav className={styles["nav-bar"]}>
                 <h2 className={styles["web-title"]}>Memory Game</h2>
                 <div className={styles["scoreboard"]}>

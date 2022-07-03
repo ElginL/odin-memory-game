@@ -13,9 +13,7 @@ import styles from '../styles/PlayingBoard.module.css';
 import Card from './Card';
 import Modal from './Modal';
 
-const PlayingBoard = ({ 
-    setScore,
-}) => {
+const PlayingBoard = ({ setScore }) => {
     const [level, setLevel] = useState(1);
     const [modalVisible, setModalVisible] = useState(false);
 
